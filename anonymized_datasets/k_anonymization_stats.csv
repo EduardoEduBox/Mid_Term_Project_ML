@@ -1,0 +1,6 @@
+k_value,original_size,anonymized_size,data_loss,filename
+5,5000,3812,23.76,anonymized_datasets/adult_k5_anonymized.csv
+10,5000,3028,39.44,anonymized_datasets/adult_k10_anonymized.csv
+25,5000,1459,70.82000000000001,anonymized_datasets/adult_k25_anonymized.csv
+50,5000,623,87.53999999999999,anonymized_datasets/adult_k50_anonymized.csv
+100,5000,603,87.94,anonymized_datasets/adult_k100_anonymized.csv

@@ -1,0 +1,6 @@
+dataset,train_accuracy,test_accuracy,precision,recall,f1_score,roc_auc,k_value,original_size,anonymized_size,data_loss,filename,utility_loss,privacy_gain
+K=5 Dataset,0.9806,0.8427,0.7225,0.6345,0.6757,0.8922,5,5000,3812,23.76,anonymized_datasets/adult_k5_anonymized.csv,2.190000000000003,5
+K=10 Dataset,0.9884,0.8003,0.6182,0.6375,0.6277,0.8835,10,5000,3028,39.44,anonymized_datasets/adult_k10_anonymized.csv,6.430000000000002,10
+K=25 Dataset,0.994,0.8219,0.7111,0.7111,0.7111,0.911,25,5000,1459,70.82000000000001,anonymized_datasets/adult_k25_anonymized.csv,4.270000000000007,25
+K=50 Dataset,1.0,0.792,0.6875,0.75,0.7174,0.8785,50,5000,623,87.53999999999999,anonymized_datasets/adult_k50_anonymized.csv,7.26,50
+K=100 Dataset,1.0,0.719,0.65,0.5652,0.6047,0.8258,100,5000,603,87.94,anonymized_datasets/adult_k100_anonymized.csv,14.560000000000006,100
